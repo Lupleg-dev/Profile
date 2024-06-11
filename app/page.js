@@ -1,8 +1,10 @@
+/* eslint-disable @next/next/no-img-element */
 /**
  * v0 by Vercel.
  * @see https://v0.dev/t/6Bs3IIToitv
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
+
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
