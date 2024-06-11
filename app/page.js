@@ -14,7 +14,7 @@ export default function Profile() {
         <div className="space-y-6">
           <div className="flex items-center gap-4">
             <Avatar className="h-20 w-20">
-              <img src="/placeholder.svg" alt="John Doe" />
+              <img src="/mark sikaundi.jpg" alt="Mark Sikaundi" />
               <AvatarFallback>MS</AvatarFallback>
             </Avatar>
             <div>
