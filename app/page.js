@@ -29,11 +29,11 @@ export default function Profile() {
           <div className="space-y-2">
             <h3 className="text-xl font-bold">About Me</h3>
             <p className="text-gray-500 dark:text-gray-400">
-              I am a passionate Software Engineer with over 5 years of
-              experience in building web applications. I have a strong
-              background in JavaScript, React, Node.js, and various databases. I
-              am always eager to learn new technologies and tackle challenging
-              projects.
+              I am a passionate Artificial Intelligence(AI) Researcher &
+              Software Engineer with over 5 years of experience in building web
+              applications. I have a strong background in JavaScript, React,
+              Node.js, and various databases. I am always eager to learn new
+              technologies and tackle challenging projects.
             </p>
           </div>
           <div className="space-y-2">
@@ -42,14 +42,16 @@ export default function Profile() {
               <Badge>Python</Badge>
               <Badge>JavaScript</Badge>
               <Badge>TypeScript</Badge>
-              <Badge>React</Badge>
-              <Badge>Node.js</Badge>
+              <Badge>Reactjs/Nextjs</Badge>
+              <Badge>Node.js/Expressjs</Badge>
               <Badge>MongoDB</Badge>
               <Badge>SQL</Badge>
-              <Badge>Git</Badge>
-              <Badge>Docker</Badge>
-              <Badge>AWS</Badge>
-              <Badge>GCP</Badge>
+              <Badge>Git/GitHub</Badge>
+              <Badge>AWS/GCP</Badge>
+              <Badge>Database</Badge>
+              <Badge>Networking</Badge>
+              <Badge>Technical Writing</Badge>
+              <Badge>WordPress</Badge>
             </div>
           </div>
           <div className="space-y-2">
@@ -59,6 +61,15 @@ export default function Profile() {
               <Badge>Script Writing</Badge>
               <Badge>Photography</Badge>
               <Badge>Video Gaming</Badge>
+            </div>
+          </div>
+          {/* University Attended */}
+          <div className="space-y-2">
+            <h3 className="text-xl font-bold">
+              University of Phoenix - Computer Science
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              <Badge>Class 2022</Badge>
             </div>
           </div>
           <div className="space-y-2">
@@ -97,14 +108,16 @@ export default function Profile() {
             <div className="space-y-4">
               <div className="grid gap-2">
                 <div className="flex items-center justify-between">
-                  <h4 className="text-lg font-medium">Full-stack Developer</h4>
+                  <h4 className="text-lg font-medium">
+                    Full-stack Developer | DevCircle Africa
+                  </h4>
                   <p className="text-gray-500 dark:text-gray-400">
                     2019 - Present
                   </p>
                 </div>
                 <p className="text-gray-500 dark:text-gray-400">
                   Developed and maintained a complex web application for a
-                  leading e-commerce company. Utilized React, Node.js, MongoDB,
+                  leading community platform. Utilized React, Node.js, MongoDB,
                   and various other technologies to deliver a seamless user
                   experience.
                 </p>
@@ -113,27 +126,86 @@ export default function Profile() {
                   <Badge>Node.js</Badge>
                   <Badge>MongoDB</Badge>
                   <Badge>REST API</Badge>
-                  <Badge>Responsive Design</Badge>
+                  <Badge>HTML/CSS/JS</Badge>
+                  <Badge>CMS</Badge>
                 </div>
               </div>
+
+              {/* Maya Innovation */}
               <div className="grid gap-2">
                 <div className="flex items-center justify-between">
-                  <h4 className="text-lg font-medium">Front-end Developer</h4>
+                  <h4 className="text-lg font-medium">
+                    Data Scientist | Maya Innovation
+                  </h4>
                   <p className="text-gray-500 dark:text-gray-400">
-                    2016 - 2019
+                    2022 - 2023
                   </p>
                 </div>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Worked on the front-end development of a SaaS platform,
-                  implementing responsive designs and integrating with various
-                  APIs.
+                  Worked on the Large Language Model (LLM) project, which
+                  specifically focused on developing a language model that can
+                  generate human-like text. The model was trained on a large
+                  dataset of text and was able to generate text that was
+                  indistinguishable from human-written text.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <Badge>React</Badge>
+                  <Badge>Python</Badge>
+                  <Badge>LangChain</Badge>
+                  <Badge>Gitlab</Badge>
+                  <Badge>KS8</Badge>
+                  <Badge>AWS</Badge>
+                  <Badge>Ovh Cloud</Badge>
+                  <Badge>LLM</Badge>
+                </div>
+              </div>
+
+              {/* Hero Control System */}
+              <div className="grid gap-2">
+                <div className="flex items-center justify-between">
+                  <h4 className="text-lg font-medium">
+                    Software Developer | Hero Control System
+                  </h4>
+                  <p className="text-gray-500 dark:text-gray-400">
+                    2023 - 2023
+                  </p>
+                </div>
+                <p className="text-gray-500 dark:text-gray-400">
+                  Worked on the both front-end & backend development of Edu SaaS
+                  platform, implementing responsive designs and integrating with
+                  various APIs.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <Badge>ReactJS</Badge>
                   <Badge>Redux</Badge>
-                  <Badge>CSS</Badge>
-                  <Badge>Responsive Design</Badge>
+                  <Badge>Tailwind CSS</Badge>
+                  <Badge>MongoDB</Badge>
                   <Badge>API Integration</Badge>
+                  <Badge>AWS</Badge>
+                </div>
+              </div>
+
+              {/* OneLife Communication & Events */}
+              <div className="grid gap-2">
+                <div className="flex items-center justify-between">
+                  <h4 className="text-lg font-medium">
+                    IT Specialist | OneLife Communication & Events
+                  </h4>
+                  <p className="text-gray-500 dark:text-gray-400">
+                    2024 - Present
+                  </p>
+                </div>
+                <p className="text-gray-500 dark:text-gray-400">
+                  Worked on managing the company&rsquo;s IT infrastructure,
+                  including hardware configuration, software installation, and
+                  network setup. Provided technical support to employees and
+                  clients.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <Badge>HTML/CSS/JS</Badge>
+                  <Badge>WordPress</Badge>
+                  <Badge>Database</Badge>
+                  <Badge>Hardware Configuration</Badge>
+                  <Badge>Support</Badge>
                 </div>
               </div>
             </div>
