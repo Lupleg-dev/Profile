@@ -30,16 +30,18 @@ export default function Profile() {
             <h3 className="text-xl font-bold">About Me</h3>
             <p className="text-gray-500 dark:text-gray-400">
               I am a passionate Artificial Intelligence(AI) Researcher &
-              Software Engineer with over 5 years of experience in building web
-              applications. I have a strong background in JavaScript, React,
-              Node.js, and various databases. I am always eager to learn new
-              technologies and tackle challenging projects.
+              Software Engineer with over 5 years of experience in building
+              softwares. I have a strong background in Python, JavaScript,
+              React, Nextjs Node.js, and various databases. I am always eager to
+              learn new technologies and tackle challenging projects.
             </p>
           </div>
           <div className="space-y-2">
             <h3 className="text-xl font-bold">Core Skills</h3>
             <div className="flex flex-wrap gap-2">
               <Badge>Python</Badge>
+              <Badge>Pytorch</Badge>
+              <Badge>Tensorflow</Badge>
               <Badge>JavaScript</Badge>
               <Badge>TypeScript</Badge>
               <Badge>Reactjs/Nextjs</Badge>
