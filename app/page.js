@@ -120,7 +120,10 @@ export default function Profile() {
                   Developed and maintained a complex web application for a
                   leading community platform. Utilized React, Node.js, MongoDB,
                   and various other technologies to deliver a seamless user
-                  experience.
+                  experience.{" "}
+                  <Link href="#" className="text-green-900">
+                    View Projects →{" "}
+                  </Link>
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge>React</Badge>
@@ -148,7 +151,10 @@ export default function Profile() {
                   specifically focused on developing a language model that can
                   generate human-like text. The model was trained on a large
                   dataset of text and was able to generate text that was
-                  indistinguishable from human-written text.
+                  indistinguishable from human-written text.{" "}
+                  <Link href="#" className="text-green-900">
+                    View Projects →{" "}
+                  </Link>
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge>Python</Badge>
@@ -175,7 +181,10 @@ export default function Profile() {
                 <p className="text-gray-500 dark:text-gray-400">
                   Worked on the both front-end & backend development of Edu SaaS
                   platform, implementing responsive designs and integrating with
-                  various APIs.
+                  various APIs.{" "}
+                  <Link href="#" className="text-green-900">
+                    View Projects →{" "}
+                  </Link>
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge>ReactJS</Badge>
@@ -202,7 +211,10 @@ export default function Profile() {
                   Worked on managing the company&rsquo;s IT infrastructure,
                   including hardware configuration, software installation, and
                   network setup. Provided technical support to employees and
-                  clients.
+                  clients.{" "}
+                  <Link href="#" className="text-green-900">
+                    View Projects →{" "}
+                  </Link>
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge>HTML/CSS/JS</Badge>
