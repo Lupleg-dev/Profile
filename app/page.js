@@ -32,7 +32,22 @@ export default function Profile() {
               Software Engineer with over 5 years of experience in building
               softwares. I have a strong background in Python, JavaScript,
               React, Nextjs Node.js, and various databases. I am always eager to
-              learn new technologies and tackle challenging projects.
+              learn new technologies and tackle challenging projects. I have
+              participated in various Data Science competions from{" "}
+              <Link
+                href="https://zindi.africa/users/Marksikaundi"
+                className="text-green-900"
+              >
+                Zindi
+              </Link>{" "}
+              and
+              <Link
+                href="https://www.kaggle.com/marksikaundi21"
+                className="text-green-900"
+              >
+                {" "}
+                Kaggle.
+              </Link>
             </p>
           </div>
           <div className="space-y-2">
