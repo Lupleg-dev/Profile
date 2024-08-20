@@ -1,12 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/6Bs3IIToitv
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
-
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Profile() {
@@ -16,7 +10,7 @@ export default function Profile() {
         <div className="space-y-6">
           <div className="flex items-center gap-4">
             <Avatar className="h-20 w-20">
-              <img src="/mark sikaundi.jpg" alt="Mark Sikaundi" />
+              <Image src="/mark sikaundi.jpg" width={250} height={250} alt="Mark Sikaundi" />
               <AvatarFallback>MS</AvatarFallback>
             </Avatar>
             <div>
@@ -71,7 +65,7 @@ export default function Profile() {
               University of Phoenix - Computer Science
             </h3>
             <div className="flex flex-wrap gap-2">
-              <Badge>Class 2022</Badge>
+              <Badge>Class 2020</Badge>
             </div>
           </div>
           <div className="space-y-2">
