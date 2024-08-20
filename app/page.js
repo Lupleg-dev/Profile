@@ -10,7 +10,12 @@ export default function Profile() {
         <div className="space-y-6">
           <div className="flex items-center gap-4">
             <Avatar className="h-20 w-20">
-              <Image src="/mark sikaundi.jpg" width={250} height={250} alt="Mark Sikaundi" />
+              <Image
+                src="/mark sikaundi.jpg"
+                width={250}
+                height={250}
+                alt="Mark Sikaundi"
+              />
               <AvatarFallback>MS</AvatarFallback>
             </Avatar>
             <div>
@@ -125,6 +130,7 @@ export default function Profile() {
                   <Badge>HTML/CSS/JS</Badge>
                   <Badge>CMS</Badge>
                 </div>
+                <hr className="m-2" />
               </div>
 
               {/* Maya Innovation */}
@@ -154,6 +160,7 @@ export default function Profile() {
                   <Badge>LLM</Badge>
                 </div>
               </div>
+              <hr className="m-2" />
 
               {/* Hero Control System */}
               <div className="grid gap-2">
@@ -179,6 +186,7 @@ export default function Profile() {
                   <Badge>AWS</Badge>
                 </div>
               </div>
+              <hr className="m-2" />
 
               {/* OneLife Communication & Events */}
               <div className="grid gap-2">
@@ -204,6 +212,7 @@ export default function Profile() {
                   <Badge>Support</Badge>
                 </div>
               </div>
+              <hr className="m-2" />
             </div>
           </div>
         </div>
