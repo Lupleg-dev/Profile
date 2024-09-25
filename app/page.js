@@ -9,7 +9,7 @@ export default function Profile() {
       <div className="grid gap-10 lg:grid-cols-2">
         <div className="space-y-6">
           <div className="flex items-center gap-4">
-            <Avatar className="h-20 w-20">
+            <Avatar className="h-20 w-20 border-2 border-orange-600">
               <Image
                 src="/mark sikaundi.jpg"
                 width={250}
@@ -36,14 +36,14 @@ export default function Profile() {
               participated in various Data Science competions from{" "}
               <Link
                 href="https://zindi.africa/users/Marksikaundi"
-                className="text-green-900"
+                className="text-orange-600"
               >
                 Zindi
               </Link>{" "}
               and
               <Link
                 href="https://www.kaggle.com/marksikaundi21"
-                className="text-green-900"
+                className="text-orange-600"
               >
                 {" "}
                 Kaggle.
@@ -76,12 +76,14 @@ export default function Profile() {
               <Badge>Reading</Badge>
               <Badge>Script Writing</Badge>
               <Badge>Video Gaming</Badge>
+              <Badge>Podcasting</Badge>
             </div>
           </div>
           {/* University Attended */}
           <div className="space-y-2">
             <h3 className="text-xl font-bold">
-              University of Phoenix - Computer Science
+              University of Phoenix -{" "}
+              <span className="text-orange-600 ">Computer Science</span>
             </h3>
             {/*
               <div className="flex flex-wrap gap-2">
@@ -90,39 +92,39 @@ export default function Profile() {
               */}
           </div>
           <div className="space-y-2">
-            <h3 className="text-xl font-bold">Social</h3>
+            <h3 className="text-xl mt-10 font-bold">Connect with Me</h3>
             <div className="flex flex-wrap gap-2">
               <Link
                 href="https://x.com/Alisikaundi"
                 className="flex items-center gap-2"
                 prefetch={false}
               >
-                <TwitterIcon className="h-5 w-5" />
+                <TwitterIcon className="h-5 w-5 text-orange-600" />
                 @Alisikaundi
               </Link>
               <Link
                 href="https://linkedin.com/in/marksikaundi"
-                className="flex items-center gap-2"
+                className="flex items-center gap-2 "
                 prefetch={false}
               >
-                <LinkedinIcon className="h-5 w-5" />
+                <LinkedinIcon className="h-5 w-5 text-orange-600" />
                 /MarkSikaundi
               </Link>
               <Link
                 href="https://gitlab.com/marksikaundi"
-                className="flex items-center gap-2"
+                className="flex items-center gap-2 "
                 prefetch={false}
               >
-                <GitlabIcon className="h-5 w-5" />
+                <GitlabIcon className="h-5 w-5 text-orange-600" />
                 /MarkSikaundi
               </Link>
 
               <Link
                 href="https://gitlab.com/marksikaundi"
-                className="flex items-center gap-2"
+                className="flex items-center gap-2 "
                 prefetch={false}
               >
-                <GitlabIcon className="h-5 w-5" />
+                <GitlabIcon className="h-5 w-5 text-orange-600" />
                 /MarkSikaundi
               </Link>
             </div>
@@ -148,7 +150,7 @@ export default function Profile() {
                   experience.{" "}
                   <Link
                     href="https://devicircleafrica.com"
-                    className="text-green-900"
+                    className="text-orange-600"
                   >
                     Learn more
                   </Link>
@@ -180,7 +182,7 @@ export default function Profile() {
                   generate human-like text. The model was trained on a large
                   dataset of text and was able to generate text that was
                   indistinguishable from human-written text.{" "}
-                  <Link href="https://guidizy.com" className="text-green-900">
+                  <Link href="https://guidizy.com" className="text-orange-600">
                     Learn more
                   </Link>
                 </p>
@@ -210,7 +212,7 @@ export default function Profile() {
                   Worked on the both front-end & backend development of Edu SaaS
                   platform, implementing responsive designs and integrating with
                   various APIs.{" "}
-                  <Link href="https://zstudy.com" className="text-green-900">
+                  <Link href="https://zstudy.com" className="text-orange-600">
                     Learn more
                   </Link>
                 </p>
@@ -240,7 +242,10 @@ export default function Profile() {
                   including hardware configuration, software installation, and
                   network setup. Provided technical support to employees and
                   clients.{" "}
-                  <Link href="https://onelife.co.zm" className="text-green-900">
+                  <Link
+                    href="https://onelife.co.zm"
+                    className="text-orange-600"
+                  >
                     Learn more
                   </Link>
                 </p>
