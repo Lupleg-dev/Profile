@@ -75,7 +75,6 @@ export default function Profile() {
             <div className="flex flex-wrap gap-2">
               <Badge>Reading</Badge>
               <Badge>Script Writing</Badge>
-              <Badge>Photography</Badge>
               <Badge>Video Gaming</Badge>
             </div>
           </div>
@@ -84,9 +83,11 @@ export default function Profile() {
             <h3 className="text-xl font-bold">
               University of Phoenix - Computer Science
             </h3>
-            <div className="flex flex-wrap gap-2">
-              <Badge>Class 2020</Badge>
-            </div>
+            {/*
+              <div className="flex flex-wrap gap-2">
+                <Badge>Class 2022</Badge>
+              </div>
+              */}
           </div>
           <div className="space-y-2">
             <h3 className="text-xl font-bold">Social</h3>
