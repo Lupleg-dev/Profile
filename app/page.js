@@ -116,6 +116,15 @@ export default function Profile() {
                 <GitlabIcon className="h-5 w-5" />
                 /MarkSikaundi
               </Link>
+
+              <Link
+                href="https://gitlab.com/marksikaundi"
+                className="flex items-center gap-2"
+                prefetch={false}
+              >
+                <GitlabIcon className="h-5 w-5" />
+                /MarkSikaundi
+              </Link>
             </div>
           </div>
         </div>
@@ -137,8 +146,11 @@ export default function Profile() {
                   leading community platform. Utilized React, Node.js, MongoDB,
                   and various other technologies to deliver a seamless user
                   experience.{" "}
-                  <Link href="#" className="text-green-900">
-                    View Projects →{" "}
+                  <Link
+                    href="https://devicircleafrica.com"
+                    className="text-green-900"
+                  >
+                    Learn more
                   </Link>
                 </p>
                 <div className="flex flex-wrap gap-2">
@@ -168,8 +180,8 @@ export default function Profile() {
                   generate human-like text. The model was trained on a large
                   dataset of text and was able to generate text that was
                   indistinguishable from human-written text.{" "}
-                  <Link href="#" className="text-green-900">
-                    View Projects →{" "}
+                  <Link href="https://guidizy.com" className="text-green-900">
+                    Learn more
                   </Link>
                 </p>
                 <div className="flex flex-wrap gap-2">
@@ -198,8 +210,8 @@ export default function Profile() {
                   Worked on the both front-end & backend development of Edu SaaS
                   platform, implementing responsive designs and integrating with
                   various APIs.{" "}
-                  <Link href="#" className="text-green-900">
-                    View Projects →{" "}
+                  <Link href="https://zstudy.com" className="text-green-900">
+                    Learn more
                   </Link>
                 </p>
                 <div className="flex flex-wrap gap-2">
@@ -228,8 +240,8 @@ export default function Profile() {
                   including hardware configuration, software installation, and
                   network setup. Provided technical support to employees and
                   clients.{" "}
-                  <Link href="#" className="text-green-900">
-                    View Projects →{" "}
+                  <Link href="https://onelife.co.zm" className="text-green-900">
+                    Learn more
                   </Link>
                 </p>
                 <div className="flex flex-wrap gap-2">
