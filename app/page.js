@@ -250,6 +250,7 @@ export default function Profile() {
                   <Badge>MongoDB</Badge>
                   <Badge>API Integration</Badge>
                   <Badge>AWS</Badge>
+                  <Badge>SEO</Badge>
                 </div>
               </div>
               <hr className="m-2" />
