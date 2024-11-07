@@ -137,7 +137,7 @@ export default function Profile() {
               <div className="grid gap-2">
                 <div className="flex items-center justify-between">
                   <h4 className="text-lg font-medium">
-                    Full-stack Developer | DevCircle Africa
+                    Founder & CEO | DevCircle Africa
                   </h4>
                   <p className="text-gray-500 dark:text-gray-400">
                     2019 - Present
@@ -181,21 +181,48 @@ export default function Profile() {
                   specifically focused on developing a language model that can
                   generate human-like text. The model was trained on a large
                   dataset of text and was able to generate text that was
-                  indistinguishable from human-written text.{" "}
-                  <Link href="https://guidizy.com" className="text-orange-600">
-                    Learn more
-                  </Link>
+                  indistinguishable from human-written text.
                 </p>
-                <div className="flex flex-wrap gap-2">
-                  <Badge>Python</Badge>
-                  <Badge>LangChain</Badge>
-                  <Badge>Gitlab</Badge>
-                  <Badge>KS8</Badge>
-                  <Badge>AWS</Badge>
-                  <Badge>Ovh Cloud</Badge>
-                  <Badge>LLM</Badge>
+                <div className="grid gap-2">
+                  <div className="flex items-center justify-between">
+                    <h4 className="text-lg font-medium">
+                      E2E Tester & Web Maintainer
+                    </h4>
+                    <p className="text-gray-500 dark:text-gray-400">
+                      2023 - Present
+                    </p>
+                  </div>
+                  <p className="text-gray-500 dark:text-gray-400">
+                    Currently my primary role is to make sure the client
+                    application and all its affiliate systems are all stable for
+                    use. From end to end testing to maintaining contents to
+                    guidizy main website.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    <Badge>Jira/Trello</Badge>
+                    <Badge>E2E</Badge>
+                    <Badge>SEO</Badge>
+                    <Badge>CMS</Badge>
+                    <Badge>Technical Writing</Badge>
+                    <Badge>Python</Badge>
+                    <Badge>TypeScript</Badge>
+                    <Badge>Reactjs</Badge>
+                    <Badge>LangChain</Badge>
+                    <Badge>Gitlab</Badge>
+                    <Badge>KS8</Badge>
+                    <Badge>AWS</Badge>
+                    <Badge>Ovh Cloud</Badge>
+                    <Badge>LLM</Badge>
+                  </div>
+                  <p>
+                  About Maya Innovation & Guidizy -
+                  <Link href="https://guidizy.com" className="text-orange-600">
+                     Learn more 
+                  </Link>
+                  </p>
                 </div>
               </div>
+
               <hr className="m-2" />
 
               {/* Hero Control System */}
