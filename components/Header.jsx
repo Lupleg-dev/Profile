@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
+import Image from 'next/image'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -12,13 +13,13 @@ const Header = () => {
   }
 
   return (
-    <header className="bg-white shadow-md">
+    <header className="bg-black shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4 md:justify-start md:space-x-10">
           {/* Logo */}
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <Link href="/" className="text-2xl font-bold text-gray-800">
-              YourLogo
+              <Image src="https://www.lupleg.org/xlogo.svg" alt="Logo" width={400} height={400} />
             </Link>
           </div>
 
@@ -58,7 +59,7 @@ const Header = () => {
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
             <Link
               href="/hire-me"
-              className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+              className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-black bg-white hover:bg-white"
             >
               Hire Me
             </Link>
