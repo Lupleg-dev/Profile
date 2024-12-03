@@ -282,7 +282,7 @@ export default function Profile() {
                   <Badge>WordPress</Badge>
                   <Badge>Database</Badge>
                   <Badge>Hardware Configuration</Badge>
-                  <Badge>Support</Badge>
+                  <Badge>IT Support</Badge>
                 </div>
               </div>
               <hr className="m-2" />
