@@ -186,7 +186,7 @@ export default function Profile() {
                 <div className="grid gap-2">
                   <div className="flex items-center justify-between">
                     <h4 className="text-lg font-medium">
-                      E2E Tester & Web Maintainer
+                      Quality Assurance Engineer | Guidizy Ltd
                     </h4>
                     <p className="text-gray-500 dark:text-gray-400">
                       2023 - Present
@@ -215,7 +215,7 @@ export default function Profile() {
                     <Badge>LLM</Badge>
                   </div>
                   <p>
-                  About Maya Innovation & Guidizy -
+                  About Guidizy(Maya Innovation) -
                   <Link href="https://guidizy.com" className="text-orange-600">
                      Learn more 
                   </Link>
@@ -262,7 +262,7 @@ export default function Profile() {
                     IT Specialist | OneLife Communication & Events
                   </h4>
                   <p className="text-gray-500 dark:text-gray-400">
-                    2024 - Present
+                    2023 - 2025
                   </p>
                 </div>
                 <p className="text-gray-500 dark:text-gray-400">
