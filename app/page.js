@@ -183,44 +183,6 @@ export default function Profile() {
                   dataset of text and was able to generate text that was
                   indistinguishable from human-written text.
                 </p>
-                <div className="grid gap-2">
-                  <div className="flex items-center justify-between">
-                    <h4 className="text-lg font-medium">
-                      Quality Assurance Engineer | Guidizy Ltd
-                    </h4>
-                    <p className="text-gray-500 dark:text-gray-400">
-                      2023 - Present
-                    </p>
-                  </div>
-                  <p className="text-gray-500 dark:text-gray-400">
-                    Currently my primary role is to make sure the client
-                    application and all its affiliate systems are all stable for
-                    use. From end to end testing to maintaining contents to
-                    guidizy main website.
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    <Badge>Jira/Trello</Badge>
-                    <Badge>E2E</Badge>
-                    <Badge>SEO</Badge>
-                    <Badge>CMS</Badge>
-                    <Badge>Technical Writing</Badge>
-                    <Badge>Python</Badge>
-                    <Badge>TypeScript</Badge>
-                    <Badge>Reactjs</Badge>
-                    <Badge>LangChain</Badge>
-                    <Badge>Gitlab</Badge>
-                    <Badge>KS8</Badge>
-                    <Badge>AWS</Badge>
-                    <Badge>Ovh Cloud</Badge>
-                    <Badge>LLM</Badge>
-                  </div>
-                  <p>
-                  About Guidizy(Maya Innovation) -
-                  <Link href="https://guidizy.com" className="text-orange-600">
-                     Learn more 
-                  </Link>
-                  </p>
-                </div>
               </div>
 
               <hr className="m-2" />
@@ -284,6 +246,44 @@ export default function Profile() {
                   <Badge>Hardware Configuration</Badge>
                   <Badge>IT Support</Badge>
                 </div>
+              </div>
+              <div className="grid gap-2">
+                <div className="flex items-center justify-between">
+                  <h4 className="text-lg font-medium">
+                    Quality Assurance Engineer | Guidizy Ltd
+                  </h4>
+                  <p className="text-gray-500 dark:text-gray-400">
+                    2023 - Present
+                  </p>
+                </div>
+                <p className="text-gray-500 dark:text-gray-400">
+                  Currently my primary role is to make sure the client
+                  application and all its affiliate systems are all stable for
+                  use. From end to end testing to maintaining contents to
+                  guidizy main website.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <Badge>Jira/Trello</Badge>
+                  <Badge>E2E</Badge>
+                  <Badge>SEO</Badge>
+                  <Badge>CMS</Badge>
+                  <Badge>Technical Writing</Badge>
+                  <Badge>Python</Badge>
+                  <Badge>TypeScript</Badge>
+                  <Badge>Reactjs</Badge>
+                  <Badge>LangChain</Badge>
+                  <Badge>Gitlab</Badge>
+                  <Badge>KS8</Badge>
+                  <Badge>AWS</Badge>
+                  <Badge>Ovh Cloud</Badge>
+                  <Badge>LLM</Badge>
+                </div>
+                <p>
+                  About Guidizy(Maya Innovation) -
+                  <Link href="https://guidizy.com" className="text-orange-600">
+                    Learn more
+                  </Link>
+                </p>
               </div>
               <hr className="m-2" />
             </div>
